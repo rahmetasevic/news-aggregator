@@ -1,0 +1,22 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 1024px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .menu-toggle:checked + .mobile-menu {
+    display: block;
+  }
+}
